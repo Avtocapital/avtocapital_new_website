@@ -24,15 +24,15 @@
 
 @font-face {
   font-family: 'Corporates S Cyrillic Regular';
-  src: url('../fonts/Corporates S Cyrillic Regular.woff2') format('woff2'),
-       url('../fonts/Corporates S Cyrillic Regular.woff') format('woff');
+  src: url('assets/fonts/Corporates S Cyrillic Regular.woff2') format('woff2'),
+       url('assets/fonts/Corporates S Cyrillic Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 
 :root {
-  --default-font: "Corporates S Cyrillic Regular";
+  --default-font: "Corporates S Cyrillic Regular, Arial, Verdana Helvetica, sans-serif";
   /* --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Inter",  sans-serif; */
